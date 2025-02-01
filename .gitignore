@@ -1,6 +1,9 @@
 # IDEA
-.idea
 .idea/
+
+# PyBuilder
+.pybuilder/
+target/
 
 # Environments
 .env
