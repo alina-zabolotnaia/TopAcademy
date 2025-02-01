@@ -9,4 +9,5 @@ if __name__ == '__main__':
     print(f'Расчетная скорость движения = {homework_1.get_speed(v_distance, v_time)} км/ч')
 
     print('\n- - - - - - - - - - - - - HOME WORK #2 - - - - - - - - - - - - - ')
-    print(f'Вызываем метод расчета miles to km {homework_2.miles_to_km_converter()}')
+    v_miles_distance = int(input('Введите количество миль (miles): '))
+    print(f'Количество километров в {v_miles_distance} милях = {homework_2.miles_to_km_converter(v_miles_distance)} (км.)')
